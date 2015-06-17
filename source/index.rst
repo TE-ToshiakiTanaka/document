@@ -6,14 +6,15 @@
 Welcome to Circle CI Document's documentation!
 ==============================================
 
+Circle CIに対する覚書をつらつらと書き下すものである．とりあえず思ったことを書いていく．
+なお，本ドキュメント自体をCircle CIにかけてPull Requestの開発をやっていくことにする．
+
 Contents:
 
 .. toctree::
    :maxdepth: 2
 
-test.
-
-
+   contents/jobcreate.rst
 
 Indices and tables
 ==================
