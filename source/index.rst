@@ -14,7 +14,7 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-    contents/jobcreate.rst
+   contents/jobcreate.rst
 
 Indices and tables
 ==================
