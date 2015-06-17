@@ -14,9 +14,9 @@ deployment:
   circle-ci-develop:
     branch: circle-ci/develop
     commands:
-        - make html:
+        - make html
 
   circle-ci-release:
     branch: circle-ci/release
     commands:
-        - make html:
+        - make html
