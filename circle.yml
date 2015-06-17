@@ -4,8 +4,14 @@ machine:
 
 test:
   override:
-    - make html
+    - make doctest
 
 general:
   artifacts:
     - "build"
+
+deployment:
+  production:
+    branch: circle-ci/develop
+    commands:
+        - make html
