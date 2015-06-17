@@ -9,3 +9,9 @@ test:
 general:
   artifacts:
     - "build"
+
+deployment:
+  production:
+    branch: circle-ci/develop
+    commands:
+        - make html
